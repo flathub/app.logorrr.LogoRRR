@@ -26,14 +26,14 @@ modules:
       - install -Dm644 meta/app.logorrr.LogoRRR.desktop -t /app/share/applications
     sources:
       - type: archive
-        url: https://www.logorrr.app/downloads/25.1.0/flatpak-25.1.0-aarch64.tar.gz
-        sha256: 0398d82618480eb82c919acf822b36301b250762ed744f772dfba1851c55321d
+        url: https://www.logorrr.app/downloads/25.2.0/flatpak-package-25.2.0-aarch64.tar.gz
+        sha256: 640fa0aa55e55095b15083a44bb42db9bbec38d71f076ea0ad9efa0b529240ba
         strip-components: 2
         only-arches:
           - aarch64
       - type: archive
-        url: https://www.logorrr.app/downloads/25.1.0/flatpak-25.1.0-amd64.tar.gz
-        sha256: ac4e1f85a44ab2947bff7916eb664cf2c97326d685d64aa53f641550e336beea
+        url: https://www.logorrr.app/downloads/25.2.0/flatpak-package-25.2.0-amd64.tar.gz
+        sha256: a4547b955c4755b807e635d1864519b67ea7146a5a03703730f7a0409c48a339
         strip-components: 2
         only-arches:
           - x86_64

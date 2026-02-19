@@ -27,13 +27,13 @@ modules:
     sources:
       - type: archive
         url: https://www.logorrr.app/downloads/26.1.0/flatpak-package-26.1.0-aarch64.tar.gz
-        sha256: e7809ad70561b944bc4c5aff09f831651ff5ef255feb8f2dfd79b983434195e9
+        sha256: a81399c837150bb4238f383cc78b33ea5f2f7d7d92c98ab2e74ae56d6c44e9f9
         strip-components: 2
         only-arches:
         - aarch64
       - type: archive
         url: https://www.logorrr.app/downloads/26.1.0/flatpak-package-26.1.0-amd64.tar.gz
-        sha256: d34a9d35e26b7fa46034d059e1f865efef109f48510b38a329a4391d5a37934b
+        sha256: 3e3f8e12ad2518c32fa9cb31a5e7de0c0dd59edc1541e3813f62ad8afd2af234
         strip-components: 2
         only-arches:
         - x86_64
